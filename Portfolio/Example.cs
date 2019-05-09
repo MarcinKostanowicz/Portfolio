@@ -8,16 +8,16 @@ namespace Portfolio
 {
     public class Example
     {
-        private string Pole { get; set; }
+        private string Pole2 { get; set; }
 
         public Example()
         {
-            Pole = "nowy string";
+            Pole2 = "nowy string";
         }
 
         public Example(string parametrPole)
         {
-            Pole = parametrPole;
+            Pole2 = parametrPole;
         }
 
 
