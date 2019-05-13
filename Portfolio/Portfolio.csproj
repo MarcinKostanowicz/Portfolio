@@ -46,8 +46,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="biblioteka1.cs" />
     <Compile Include="Example.cs" />
     <Compile Include="Figura.cs" />
+    <Compile Include="lekcja2.cs" />
+    <Compile Include="petelki.cs" />
     <Compile Include="Prostokat.cs" />
     <Compile Include="Kwadrat.cs" />
     <Compile Include="UnitTest1.cs" />
