@@ -4,21 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Portfolio
+namespace Portfolio.basic
 {
-    class lekcja2
+    class Lekcja2
     {
         static void Main(string[] args)
-        {    // operatory
-           // int a = 2;
-          //  int b = 4;       // != rózne
+        {
+            // operatory
+            // int a = 2;
+            //  int b = 4;       // != rózne
             int c;
-          //  c = b + a;  // + - * /
-                        // bool a = 
-                        //Math.Pow(2, 3);
+            //  c = b + a;  // + - * /
+            // bool a = 
+            //Math.Pow(2, 3);
 
             int a = -1;
-            
+
             if (a > 0)   // sprawdza warunek
             {
                 Console.WriteLine("a jest wieksze od zera");
@@ -28,10 +29,11 @@ namespace Portfolio
                 Console.WriteLine("a jest mniejsze od zera");
             }
 
+
+
         }
-        
+
             
-                
 
         
     } 

@@ -1,4 +1,4 @@
-﻿namespace Portfolio
+﻿namespace Portfolio.basic2
 {
     public abstract class Figura //abstract czyli nie może być zainicjalizowana, przynajmniej jedna metoda powinna byc abstrakcyjna (ale nie musi)
     {

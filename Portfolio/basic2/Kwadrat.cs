@@ -1,4 +1,4 @@
-﻿namespace Portfolio
+﻿namespace Portfolio.basic2
 {
     public class Kwadrat : Figura // dziedziczenie
     {

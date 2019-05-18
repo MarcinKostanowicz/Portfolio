@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Portfolio
+namespace Portfolio.basic2
 {
     public class Example
     {

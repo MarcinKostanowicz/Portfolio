@@ -46,19 +46,22 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="biblioteka1.cs" />
-    <Compile Include="Example.cs" />
-    <Compile Include="Figura.cs" />
-    <Compile Include="lekcja2.cs" />
-    <Compile Include="petelki.cs" />
-    <Compile Include="Prostokat.cs" />
-    <Compile Include="Kwadrat.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="basic\Biblioteka1.cs" />
+    <Compile Include="basic\IFELSE.cs" />
+    <Compile Include="basic\Lekcja2.cs" />
+    <Compile Include="basic\Petelki.cs" />
+    <Compile Include="basic2\Example.cs" />
+    <Compile Include="basic2\Figura.cs" />
+    <Compile Include="basic2\Prostokat.cs" />
+    <Compile Include="basic2\Kwadrat.cs" />
+    <Compile Include="basic2\UnitTest1.cs" />
+    <Compile Include="basic\Petla.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

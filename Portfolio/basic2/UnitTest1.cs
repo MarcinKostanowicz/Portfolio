@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 
-namespace Portfolio
+namespace Portfolio.basic2
 {
     public enum Figury {
         Kwadrat = 0,
