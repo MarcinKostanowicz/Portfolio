@@ -8,7 +8,7 @@ namespace Portfolio.basic
 {
     class Petelki
     {
-        static void Main(string[] args)
+        static void Test(string[] args)
         {
 
             int a = 0;
