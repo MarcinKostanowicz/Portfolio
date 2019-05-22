@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Framework;
 
 namespace Portfolio.basic2
 {
@@ -35,13 +36,21 @@ namespace Portfolio.basic2
     public class DziedziczenieTest2
     {
         [Test]
-
         public void TestTabela()
+        {
             Liga liga = new Liga();
             liga.GetTabela();
 
             Liga legia = new Legia();
             legia.GetTabela();
+
+
+        }
+            
+            
+
+            
+            
 
 
 
