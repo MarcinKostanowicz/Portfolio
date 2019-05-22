@@ -36,7 +36,7 @@ namespace Portfolio.basic
         internal void Switch()
             {
                 int liczba;
-                liczba = int.Parse(Console.ReadLine()); //preczytac
+                liczba = int.Parse(Console.ReadLine()); // zwraca nam typ int w konsoli moge wpisywać liczby
 
                 switch (liczba)
                 {
