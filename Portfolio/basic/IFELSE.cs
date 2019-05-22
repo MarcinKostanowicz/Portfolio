@@ -6,12 +6,20 @@ using System.Threading.Tasks;
 
 namespace Portfolio.basic
 {
-    class IfElse
+    class z
     {
+        IfElse ie = new IfElse();
 
-        public void InstrukcjeWarunkowe()
+        public z()
         {
 
+        }
+    }
+
+    class IfElse
+    {
+        public void InstrukcjeWarunkowe()
+        {
             int a = -1;
 
             if (a > 0)
@@ -22,11 +30,13 @@ namespace Portfolio.basic
             {
                 Console.WriteLine("a jest mniejsze od zera");
             }
-        }    
-           public void Switch()
+        }
+
+
+        internal void Switch()
             {
                 int liczba;
-                liczba = int.Parse(Console.ReadLine());
+                liczba = int.Parse(Console.ReadLine()); //preczytac
 
                 switch (liczba)
                 {
@@ -34,52 +44,15 @@ namespace Portfolio.basic
                         Console.WriteLine("jeden");
                         break;
                     case 2:
-                        Console.WriteLine("dwa");
+
+
+                    case 3:
+                        Console.WriteLine("trzy");
                         break;
-                     case 3:
-                    Console.WriteLine("trzy");
-                    break;
-                  default:
-                    Console.WriteLine("inna wartosc");
-                    break;
-
-
-
-
-
-
+                    default:
+                        Console.WriteLine("inna wartosc");
+                        break;
                 }
-
-
-
-
             }
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+        }
 }

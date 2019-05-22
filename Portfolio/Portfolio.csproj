@@ -46,6 +46,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="basic2\Dziedzictwo.cs" />
+    <Compile Include="basic2\Dziedziczenie.cs" />
     <Compile Include="basic\Biblioteka1.cs" />
     <Compile Include="basic\IFELSE.cs" />
     <Compile Include="basic\Lekcja2.cs" />

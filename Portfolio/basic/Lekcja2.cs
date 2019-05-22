@@ -8,7 +8,7 @@ namespace Portfolio.basic
 {
     class Lekcja2
     {
-        static void Main(string[] args)
+        static void Warunek(string[] args)
         {
             // operatory
             // int a = 2;
