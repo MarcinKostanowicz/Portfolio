@@ -2,7 +2,20 @@
 {
     public abstract class Figura //abstract czyli nie może być zainicjalizowana, przynajmniej jedna metoda powinna byc abstrakcyjna (ale nie musi)
     {
-        protected string NazwaFigury { get; set; }
+        protected string NazwaFigury { private get; set; }
+
+        //private string _nazwaFiguty;
+        //public string NazwaFigury2
+        //{
+        //    get
+        //    {
+        //        return _nazwaFiguty;
+        //    }
+        //    set
+        //    {
+        //        _nazwaFiguty = value;
+        //    }
+        //}
 
         public Figura(string nazwaFigury)
         {

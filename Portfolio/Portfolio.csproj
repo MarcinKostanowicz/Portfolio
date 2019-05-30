@@ -44,21 +44,49 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="basic2\Dziedzictwo.cs" />
-    <Compile Include="basic2\Dziedziczenie.cs" />
+    <Compile Include="abstrakcja\samochod\Fiat.cs" />
+    <Compile Include="abstrakcja\samochod\Ford.cs" />
+    <Compile Include="abstrakcja\samochod\Pojazd.cs" />
+    <Compile Include="abstrakcja\samochod\TestPojazd.cs" />
+    <Compile Include="dziedziczenie\samochod\Audi.cs" />
+    <Compile Include="dziedziczenie\samochod\Bmw.cs" />
+    <Compile Include="dziedziczenie\samochod\tests\DziedziczenieTest.cs" />
+    <Compile Include="dziedziczenie\samochod\Samochod.cs" />
+    <Compile Include="basic2\Enumelator.cs" />
+    <Compile Include="basic2\Inter.cs" />
+    <Compile Include="basic2\Konstruktory\KonstruktoryUnitTest.cs" />
     <Compile Include="basic\Biblioteka1.cs" />
     <Compile Include="basic\IFELSE.cs" />
     <Compile Include="basic\Lekcja2.cs" />
     <Compile Include="basic\Petelki.cs" />
-    <Compile Include="basic2\Example.cs" />
-    <Compile Include="basic2\Figura.cs" />
-    <Compile Include="basic2\Prostokat.cs" />
-    <Compile Include="basic2\Kwadrat.cs" />
-    <Compile Include="basic2\UnitTest1.cs" />
+    <Compile Include="basic2\Konstruktory\Konstruktory.cs" />
+    <Compile Include="abstrakcja\Figura.cs" />
+    <Compile Include="abstrakcja\Prostokat.cs" />
+    <Compile Include="abstrakcja\Kwadrat.cs" />
+    <Compile Include="abstrakcja\UnitTest1.cs" />
     <Compile Include="basic\Petla.cs" />
+    <Compile Include="dziedziczenie\Sklepy\Empik.cs" />
+    <Compile Include="dziedziczenie\Sklepy\Grycan.cs" />
+    <Compile Include="dziedziczenie\Sklepy\HAndM.cs" />
+    <Compile Include="dziedziczenie\Sklepy\Mango.cs" />
+    <Compile Include="dziedziczenie\Sklepy\Sklep.cs" />
+    <Compile Include="dziedziczenie\Sklepy\test\DziedziczenieTest.cs" />
+    <Compile Include="dziedziczenie\Tabela ligi\Legia.cs" />
+    <Compile Include="dziedziczenie\Tabela ligi\liga.cs" />
+    <Compile Include="dziedziczenie\Tabela ligi\tests\DziedziczenieTest2.cs" />
+    <Compile Include="dziedziczenie\Tabela ligi\Wisla.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selenium\BrowserType.cs" />
+    <Compile Include="selenium\WebDriverFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -72,5 +100,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\NUnit.3.11.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NUnit.3.11.0\build\NUnit.props'))" />
     <Error Condition="!Exists('packages\NUnit3TestAdapter.3.13.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NUnit3TestAdapter.3.13.0\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('packages\Selenium.WebDriver.ChromeDriver.74.0.3729.6\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.WebDriver.ChromeDriver.74.0.3729.6\build\Selenium.WebDriver.ChromeDriver.targets'))" />
   </Target>
+  <Import Project="packages\Selenium.WebDriver.ChromeDriver.74.0.3729.6\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('packages\Selenium.WebDriver.ChromeDriver.74.0.3729.6\build\Selenium.WebDriver.ChromeDriver.targets')" />
 </Project>

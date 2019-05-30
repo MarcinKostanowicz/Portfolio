@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Portfolio.basic2
+namespace Portfolio.abstrakcja.samochod
 {
-    class dziedziczenie2
+   public enum Pojazd
     {
-    }
+
+    }                                //w budowie
+    
 }

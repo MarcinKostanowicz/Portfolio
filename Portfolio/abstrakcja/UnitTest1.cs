@@ -3,7 +3,7 @@ using System;
 
 namespace Portfolio.basic2
 {
-    public enum Figury {
+    public enum Figury {        //Enum typ wyliczeniowy 
         Kwadrat = 0,
         Prostokat = 1, 
         Trapez = 2

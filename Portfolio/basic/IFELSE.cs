@@ -40,7 +40,7 @@ namespace Portfolio.basic
 
                 switch (liczba)
                 {
-                    case 1:
+                    case 1:                      // (case przypadek)
                         Console.WriteLine("jeden");
                         break;
                     case 2:
