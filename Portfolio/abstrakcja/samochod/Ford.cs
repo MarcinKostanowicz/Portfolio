@@ -8,17 +8,18 @@ namespace Portfolio.abstrakcja.samochod
 {
    public class Ford : Pojazd
     {
-        private readonly int _konie;
-        private int konie;
+        private int _dodatkoweKoniePoTuningu;
 
-        public Ford(int bok) : base("Ford") 
+        //tutaj mozesz w konstruktorze przekazac dodatkowa moc i masz wartosc domyslna
+        public Ford(int dodatkoweKoniePoTuningunie) : base("Ford") 
         {
-            _konie = konie;
+            Konie = 90;
+            _dodatkoweKoniePoTuningu = dodatkoweKoniePoTuningunie;
         }
 
         public override double ObliczPredkosc() 
         {
-            return _konie * _konie;
+            return Konie + _dodatkoweKoniePoTuningu;
         }
     }
 }

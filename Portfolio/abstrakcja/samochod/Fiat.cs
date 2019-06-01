@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace Portfolio.abstrakcja.samochod
 {
-   public class Fiat : Pojazd
+    public class Fiat : Pojazd
     {
-        private readonly int _konie;
-        private int konie;
-
-        public Fiat(int bok) : base("Fiat")
+        // bez mozliwosci rozszerzenia ale jest algorytm w postaci metody ktory rozszerza moc samochodu
+        public Fiat() : base("Fiat")
         {
-            _konie = konie;
+            Konie = 60;
+        }
+
+        // jakis algorytm ktory wylicza dodatkowa moc
+        private int DodatkowaMoc()
+        {
+            return 10 + 15;
         }
 
         public override double ObliczPredkosc()
         {
-            return _konie * _konie;
+            return Konie + DodatkowaMoc();
         }
     }
 }

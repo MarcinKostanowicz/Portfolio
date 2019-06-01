@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace Portfolio.abstrakcja.samochod
 {
-    public class TestPojazd
+    public class SportowyFord : Ford
     {
-        [Test]
-        public void Test()
+        //tutaj mozesz w konstruktorze przekazac dodatkowa moc i masz wartosc domyslna
+        public SportowyFord() : base(80)
         {
-            
         }
-
     }
 }

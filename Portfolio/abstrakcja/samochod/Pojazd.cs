@@ -9,9 +9,8 @@ namespace Portfolio.abstrakcja.samochod
 {
    public abstract class Pojazd
     {
+        protected int Konie { get; set; }
         protected string NazwaPojazdu { private get; set; }
-
-
 
         public Pojazd(string nazwaPojazdu)
         {
@@ -24,18 +23,5 @@ namespace Portfolio.abstrakcja.samochod
         {
             return NazwaPojazdu;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-
+   }
 }
