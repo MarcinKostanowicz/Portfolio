@@ -24,5 +24,10 @@ namespace Portfolio.abstrakcja.samochod
         {
             return Konie + DodatkowaMoc();
         }
+
+        public static implicit operator Fiat(Ford v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
