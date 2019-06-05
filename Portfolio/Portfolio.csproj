@@ -57,6 +57,8 @@
     <Compile Include="abstrakcja\samochod\Ford.cs" />
     <Compile Include="abstrakcja\samochod\Pojazd.cs" />
     <Compile Include="abstrakcja\samochod\TestPojazd.cs" />
+    <Compile Include="basic2\Konstruktory\Konstruktorsamochod.cs" />
+    <Compile Include="basic2\Konstruktory\UnitTestSamochod.cs" />
     <Compile Include="dziedziczenie\samochod\Audi.cs" />
     <Compile Include="dziedziczenie\samochod\Bmw.cs" />
     <Compile Include="dziedziczenie\samochod\tests\DziedziczenieTest.cs" />

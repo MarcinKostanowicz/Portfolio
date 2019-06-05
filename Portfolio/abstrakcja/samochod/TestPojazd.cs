@@ -12,7 +12,7 @@ namespace Portfolio.abstrakcja.samochod
         private Fiat fiat;
         private double konie;
         private Ford ford;
-
+        
         public Fiat TestPojazd { get; private set; }
 
         public enum Pojazd
