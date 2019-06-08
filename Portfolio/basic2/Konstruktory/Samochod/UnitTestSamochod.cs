@@ -14,13 +14,16 @@ namespace Portfolio.basic2.Konstruktory
         public void TestSamochodMarka()
         {
             Samochod samochod = new Samochod();
-            samochod.Marka("Audi");
+
+
+            samochod.Marka = "Ford";
+
         }
         [Test]
         public void TestSamochodMoc()
         {
             Samochod samochod = new Samochod();
-            samochod.Moc(60);
+            samochod.Moc = 60;
         }
 
 

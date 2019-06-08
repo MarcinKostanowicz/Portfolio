@@ -17,7 +17,7 @@ namespace Portfolio.abstrakcja.samochod
 
         public enum Pojazd
         {
-           Fiat = 60
+           Fiat = 60,
            Ford = 90
 
 

@@ -11,25 +11,19 @@ namespace Portfolio.basic2.Konstruktory
         public string Marka { get; set; }
         public int Moc { get; set; }
 
-
-        public Samochod()
-        {
-            Marka = "Audi";
-        }
-
-        internal void Marka(string v)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Samochod (string marka, int moc) : this()
+        public Samochod(string marka, int moc) : this(marka)
         {
             Moc = moc;
         }
 
-        internal void Moc(int v)
+        public Samochod(string marka)
         {
-            throw new NotImplementedException();
+            Marka = marka;
+        }
+
+        public Samochod()
+        {
+            Marka = "Audi";
         }
     }
 }
