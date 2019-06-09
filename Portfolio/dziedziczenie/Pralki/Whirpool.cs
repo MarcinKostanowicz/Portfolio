@@ -8,6 +8,13 @@ namespace Portfolio.dziedziczenie.Pralki
 {
     class Whirpool : Pralka
     {
+        private bool czySieWlaczy;
+
+        public Whirpool(bool czySieWlaczy)
+        {
+            this.czySieWlaczy = czySieWlaczy;
+        }
+
         public new string GetNazwa()
         {
             return "Whirpool";

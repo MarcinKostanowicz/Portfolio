@@ -10,9 +10,7 @@ namespace Portfolio.abstrakcja.samochod
     {
         private int _dodatkoweKoniePoTuningu;
 
-        public Ford()
-        {
-        }
+        
 
         //tutaj mozesz w konstruktorze przekazac dodatkowa moc i masz wartosc domyslna
         public Ford(int dodatkoweKoniePoTuningunie) : base("Ford") 

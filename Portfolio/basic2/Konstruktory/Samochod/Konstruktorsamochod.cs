@@ -25,5 +25,20 @@ namespace Portfolio.basic2.Konstruktory
         {
             Marka = "Audi";
         }
+
+
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }

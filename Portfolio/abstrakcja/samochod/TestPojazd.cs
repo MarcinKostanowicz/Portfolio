@@ -13,7 +13,7 @@ namespace Portfolio.abstrakcja.samochod
         private double konie;
         private Ford ford;
         
-        public Fiat TestPojazd { get; private set; }
+        public Fiat TestPojazdu { get; private set; }
 
         public enum Pojazd
         {
@@ -24,7 +24,7 @@ namespace Portfolio.abstrakcja.samochod
         }
 
         [Test]
-        public void TestPojazdu()
+        public void TestPojazdui()
         {
             fiat = new Fiat();
             fiat.ZwrocNazwePojazdu();

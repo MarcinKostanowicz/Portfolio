@@ -7,7 +7,7 @@ using NUnit.Framework;
 
 namespace Portfolio.basic2.Konstruktory
 {
-    class UnitTestSamochod
+   public class UnitTestSamochod
     {
 
         [Test]
